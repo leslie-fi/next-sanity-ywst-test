@@ -16,14 +16,29 @@
   "dependencies": {
     "@sanity/cli": "^2.0.9",
     "@sanity/client": "^2.0.9",
+    "dotenv": "^8.2.0",
     "next": "^10.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
   "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
     "concurrently": "^5.3.0",
+    "eslint-plugin-react": "^7.23.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "lerna": "^3.22.1",
     "prettier": "^2.1.2",
-    "sanity-template": "^2.3.0"
+    "sanity-codegen": "^0.9.3",
+    "sanity-template": "^2.3.0",
+    "typescript": "^4.2.3"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "semi": true,
+    "singleQuote": true,
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false
   }
 }
